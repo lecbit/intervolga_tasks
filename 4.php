@@ -27,10 +27,6 @@ for ($i=0; $i < 99; $i++) {
                 $arr2[array_key_last($arr2)][2]++;
                 $arr2[array_key_last($arr2)][2] = $arr2[array_key_last($arr2)][2]++;
         }
-        else
-        {
-            $arr2[] = [1=>$arr[$i],2=>2];
-        }
     }
     else
     {
